@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,500;1,400&family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Rubik:wght@300;400&family=Sofia+Sans+Semi+Condensed:ital,wght@0,200;1,100&family=Source+Sans+Pro:wght@200;300&family=Ubuntu:ital,wght@0,300;0,400;1,400;1,500&family=Unbounded:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+
+}
+
+body {
+
+    
+    background: rgb(63,94,251);
+    background: linear-gradient(133deg, rgb(189, 197, 68) 0%, rgb(120, 135, 166) 54%, rgb(0, 243, 20) 100%);
+
+}
+
+.b1 {
+    color: rgb(255, 255, 255);
+}
+
+
+main {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form { /* caixa do formulario*/
+
+    width: 400px;
+
+    background: rgb(63,94,251);
+    background: linear-gradient(133deg, rgb(236, 170, 26) 0%, rgba(225,219,228,1) 39%, rgb(70, 252, 100) 100%);
+    -webkit-box-shadow: 21px 3px 48px 15px rgba(0,0,0,0.57);
+    -moz-box-shadow: 21px 3px 48px 15px rgba(0,0,0,0.57);
+    box-shadow: 60px 3px 48px 15px rgba(0,0,0,0.57);
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{ /* caixa*/
+
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+label { /* escrita da caixa*/
+
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+input:focus, textarea:focus{  /* dentro da caixa*/
+
+    transition: all 0.3s ease-in;
+    background-color: #eeeeee;
+    color: #000000;
+    -webkit-box-shadow: 88px 12px 90px -14px  #f8f8f8 ;
+
+
+}
+
+
+button{  /* estilizar botão*/
+
+
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+    
+    
+
+}
+
+
+button:hover {
+
+  
+
+    background-color: #282826;
+    color: #cccccc;
+    -webkit-box-shadow: 88px 12px 90px -14px  #000000 ;
+
+}
+
